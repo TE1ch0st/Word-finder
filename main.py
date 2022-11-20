@@ -120,7 +120,7 @@ def main():
 
         sleep(1)
 
-        if input(colorama.Fore.RED + 'Завершить программу Y\\N? -- ' + colorama.Fore.BLUE).lower() == 'y' or 'у':
+        if input(colorama.Fore.RED + 'Завершить программу Y\\N? -- ' + colorama.Fore.BLUE).lower() == 'y':
             exit()
 
 
